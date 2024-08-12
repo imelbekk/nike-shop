@@ -46,12 +46,6 @@ export default function home() {
           spacing: -50
         },
       },
-      '(max-width: 490px)':{
-        slides:{
-          perView: 1,
-          spacing: -100
-        },
-      },
     },
     mode: "free",
     slides: {
