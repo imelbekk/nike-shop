@@ -1,0 +1,171 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.66rem;
+  margin-bottom: 8.33rem;
+}
+
+.video {
+  width: 100%;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  /* height: 100%; */
+}
+
+.video video {
+  width: 44.4rem;
+  margin: auto;
+}
+
+.title {
+  padding: 0 2.22rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.title h6 {
+  font-size: 5rem;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.title p {
+  font-size: 1rem;
+  max-width: 30rem;
+  text-align: center;
+  opacity: 0.8;
+  font-weight: 100;
+}
+
+.air_buttons {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 1.22rem;
+  margin-bottom: 2.77rem;
+  margin-top: 0.55rem;
+}
+
+.air_buttons button {
+  padding: 0.66rem 1.38rem;
+  letter-spacing: 0.5px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 1.38rem;
+  font-weight: bold;
+  font-size: 0.77rem;
+}
+
+.air_buttons button:hover {
+  cursor: pointer;
+  background: #848282;
+}
+
+.nike_sport img {
+  height: 27.7rem;
+}
+
+.nike_sport img:hover {
+  cursor: pointer;
+}
+
+.nike_sport{
+  text-align: center;
+}
+
+.shop_classics {
+  display: flex;
+  flex-direction: column;
+  gap: 1.66rem;
+}
+
+.shop_classics h6 {
+  font-size: 3.33rem;
+  padding: 3.88rem 2.77rem;
+}
+
+.classic_air img {
+  width: 22.22rem;
+}
+
+.classic_card {
+  height: 30.55rem;
+  text-align: center;
+}
+
+.classic_card:hover {
+  cursor: pointer;
+}
+
+.one_air_force {
+  width: 100%;
+  overflow: hidden;
+}
+
+.dunk_big {
+  width: 100%;
+  margin: 2.77rem 0 -16.66rem 0;
+}
+
+
+
+@media (max-width: 1250px) {
+  .keen-slider img{
+    width: 350px;
+    height: 400px;
+  }
+}
+
+
+@media (max-width: 1050px) {
+  .keen-slider img{
+    width: 330px;
+    height: 380px;
+  }
+  .dunk_big{
+    margin: 2.77rem 0 -8rem 0;
+  }
+}
+
+
+@media (max-width: 856px ) {
+  .air_buttons button:nth-child(1){
+    display: none;
+  }
+}
+
+@media (max-width: 715px) {
+  .video{
+    background: white;
+  }
+  .video video{
+    width: 100%;
+  }
+}
+
+@media (max-width: 660px){
+  .keen-slider img{
+    width: 18rem;
+    height: 20rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .dunk_big {
+    width: 100%;
+    margin: 2.77rem 0 -2rem 0;
+  }
+  .keen-slider img{
+    width: 19rem;
+    height: 21rem;
+  }
+  .shop_classics h6 {
+    font-size: 2rem;
+    padding: 2rem 2.77rem;
+  }
+}

@@ -1,0 +1,87 @@
+footer{
+    padding: 0px 2.77rem 2.77rem;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-bottom: 3rem;
+}
+
+
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(221, 217, 217);
+    /* padding-top: 4.44rem; */
+}
+
+.footer_card{
+   display: flex;
+   flex-direction: column; 
+   gap: 0.83rem; 
+}
+
+.footer_card h6{
+    font-size: 1rem;
+    margin-bottom: 1.66rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.footer_card a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+}
+
+.united_states{
+    display: flex;
+    height: 1.12rem;
+    align-items: center;
+    gap: 0.55rem;
+    opacity: 0.7;
+}
+
+.footer_bottom{
+    display: flex;
+    gap: 1.66rem;
+    flex-wrap: wrap;
+}
+
+.footer_bottom a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+}
+
+
+.footer_top_hidden{
+    display: none;
+}
+
+@media (max-width: (1200px)) {
+    .footer_top{
+        display: none;
+    }
+}
+
+@media (max-width: 1150px) {
+    .footer_bottom{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .united_states{
+        display: none;
+    }
+    .footer_card{
+        display: none;
+    }
+    .footer_top_hidden{
+        display: inline-block;
+    }
+}
+
+
+

@@ -1,0 +1,47 @@
+nav{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 5px 50px;
+  background: #f5f4f4;
+}
+
+.logos{
+  display: flex;
+  gap: 20px;
+  align-content: center;
+}
+
+.jordan{
+  width: 20px;
+}
+
+.converse{
+  width: 30px;
+}
+
+.texts{
+  display: flex;
+  gap: 15px;
+  padding: 5px;
+}
+
+.texts a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight:lighter;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.texts span{
+  border: 0.5px solid ;
+  height: 15px;
+}
+
+@media (max-width: 958px) {
+  nav{
+    display: none;
+  }
+}
